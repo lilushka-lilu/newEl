@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../sass/style.sass"
+	],
+	"sourcesContent": [
+		"$color-body: #fdfdfd;\n$color-red: #f03226;\n$color-text: #293132;\n\n@mixin box {\n    width: 400px;\n    height: 200px;\n    background-color: $color-red; }\n\n* {\n    box-sizing: border-box; }\n\n.main {\n    @include box;\n    &__p {\n        color: $color-text; } }\n\n\n\n\n\n"
+	],
+	"names": [],
+	"mappings": ";AASA,AAAA,CAAC,CAAC;EACE,UAAU,EAAE,UAAU;CAAG;;;AAE7B,AAAA,KAAK,CAAC;EAPF,KAAK,EAAE,KAAK;EACZ,MAAM,EAAE,KAAK;EACb,gBAAgB,EANR,OAAO;CAcY;;;AAD1B,AAAD,QAAI,CAAC;EACD,KAAK,EAbA,OAAO;CAaS"
+}

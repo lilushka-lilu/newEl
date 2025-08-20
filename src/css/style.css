@@ -1,0 +1,167 @@
+*, ::after, ::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  min-width: 320px;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+  background: #fdfdfd;
+  font-family: "Inter", sans-serif;
+}
+
+.wrapper {
+  margin: 0 auto;
+  max-width: 144rem;
+  width: 95%;
+}
+
+.row {
+  display: flex;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.row > * {
+  box-sizing: border-box;
+  flex-shrink: 0;
+  width: 100%;
+  max-width: 100%;
+  padding-right: .8rem;
+  padding-left: .8rem;
+  position: relative;
+}
+
+.main {
+  border-radius: .8rem .8rem 0 0;
+  box-shadow: 0 0 2.5rem 0 rgba(0, 0, 0, 0.05);
+}
+
+.main__p {
+  color: #293132;
+}
+
+.button__top {
+  width: 56px;
+  height: 56px;
+  position: fixed;
+  bottom: 8px;
+  right: 8px;
+  border-radius: 50%;
+  border: 1px solid #f03226;
+  rotate: -90deg;
+  background-color: #fdfdfd;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  opacity: 0;
+  transition: all 0.5s ease;
+}
+
+.button__top_active {
+  opacity: 1;
+  stroke: #f03226;
+}
+
+.svg-image-airplane, .svg-image-all-v, .svg-image-alphabetical-sort, .svg-image-arrow, .svg-image-arrow-view-down, .svg-image-ascending_sorting, .svg-image-availability, .svg-image-back, .svg-image-basket, .svg-image-bb, .svg-image-bm-icon-1, .svg-image-bm-icon-2, .svg-image-bm-icon-3, .svg-image-bm-icon-4, .svg-image-bm-icon-5, .svg-image-clock, .svg-image-close, .svg-image-close-catalog, .svg-image-col-items, .svg-image-comparison, .svg-image-delete, .svg-image-descending_sorting, .svg-image-done, .svg-image-download, .svg-image-facebook, .svg-image-favorites, .svg-image-filter, .svg-image-grey-view-more, .svg-image-high_importance, .svg-image-instagram, .svg-image-letter, .svg-image-location, .svg-image-menu-catalog, .svg-image-minus, .svg-image-ok, .svg-image-phone, .svg-image-phone-header, .svg-image-pin, .svg-image-plus, .svg-image-price-list, .svg-image-print, .svg-image-prod-comp, .svg-image-prod-fav, .svg-image-product-basket, .svg-image-reviews_sorting, .svg-image-row-items, .svg-image-search-header, .svg-image-select-arrow, .svg-image-share, .svg-image-shopping-cart, .svg-image-slider-arrow, .svg-image-smartphone, .svg-image-star-dis, .svg-image-star-en, .svg-image-unavailable, .svg-image-upload-icon, .svg-image-user, .svg-image-view-more-catalog, .svg-image-youtube {
+  background: url(../sprites/main.svg) no-repeat;
+}
+
+.bottom-menu {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+  border-radius: .8rem .8rem 0 0;
+  box-shadow: 0 0 2.5rem 0 rgba(0, 0, 0, 0.05);
+  padding: 10px 20px 8px;
+  z-index: 9999;
+}
+
+.bottom-menu__item {
+  flex: 1 0 0%;
+}
+
+.bottom-menu__link {
+  display: inline-block;
+  vertical-align: top;
+  min-width: 4rem;
+  position: relative;
+}
+
+.bottom-menu__svg {
+  margin-left: auto;
+  margin-right: auto;
+  width: 3.4rem;
+  height: 3.4rem;
+}
+
+.bottom-menu__svg::before {
+  content: "";
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  padding-top: 100%;
+}
+
+.bottom-menu__text {
+  font-size: 11px;
+  color: #293132;
+  font-feature-settings: "clig" off, "liga" off;
+  line-height: 1;
+  text-align: center;
+}
+
+.bottom-menu__data {
+  position: absolute;
+  top: -3px;
+  right: -14px;
+  background: #f4ed71;
+  width: 2rem;
+  height: 2rem;
+  text-align: center;
+  line-height: 2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  border-radius: 50%;
+}
+
+.svg-image-bm-icon-1 {
+  background-position: 71.2% 57.2580645161%;
+  background-size: 835.2941176471% auto;
+}
+
+.svg-image-bm-icon-2 {
+  background-position: 0 78.2258064516%;
+  background-size: 835.2941176471% auto;
+}
+
+.svg-image-bm-icon-3 {
+  background-position: 13.6% 78.2258064516%;
+  background-size: 835.2941176471% auto;
+}
+
+.svg-image-bm-icon-4 {
+  background-position: 27.2% 78.2258064516%;
+  background-size: 835.2941176471% auto;
+}
+
+.svg-image-bm-icon-5 {
+  background-position: 40.8% 78.2258064516%;
+  background-size: 835.2941176471% auto;
+}

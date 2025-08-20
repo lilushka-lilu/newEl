@@ -1,0 +1,64 @@
+.svg-image-airplane, .svg-image-all-v, .svg-image-alphabetical-sort, .svg-image-arrow, .svg-image-arrow-view-down, .svg-image-ascending_sorting, .svg-image-availability, .svg-image-back, .svg-image-basket, .svg-image-bb, .svg-image-bm-icon-1, .svg-image-bm-icon-2, .svg-image-bm-icon-3, .svg-image-bm-icon-4, .svg-image-bm-icon-5, .svg-image-clock, .svg-image-close, .svg-image-close-catalog, .svg-image-col-items, .svg-image-comparison, .svg-image-delete, .svg-image-descending_sorting, .svg-image-done, .svg-image-download, .svg-image-facebook, .svg-image-favorites, .svg-image-filter, .svg-image-grey-view-more, .svg-image-high_importance, .svg-image-instagram, .svg-image-letter, .svg-image-location, .svg-image-menu-catalog, .svg-image-minus, .svg-image-ok, .svg-image-phone, .svg-image-phone-header, .svg-image-pin, .svg-image-plus, .svg-image-price-list, .svg-image-print, .svg-image-prod-comp, .svg-image-prod-fav, .svg-image-product-basket, .svg-image-reviews_sorting, .svg-image-row-items, .svg-image-search-header, .svg-image-select-arrow, .svg-image-share, .svg-image-shopping-cart, .svg-image-slider-arrow, .svg-image-smartphone, .svg-image-star-dis, .svg-image-star-en, .svg-image-unavailable, .svg-image-upload-icon, .svg-image-user, .svg-image-view-more-catalog, .svg-image-youtube
+    background: url(../sprites/main.svg) no-repeat
+
+.bottom-menu
+    position: fixed
+    bottom: 0
+    left: 0
+    right: 0
+    background-color: #fff
+    @include border-box
+    padding: 10px 20px 8px
+    z-index: 9999
+    &__item
+        flex: 1 0 0%
+    &__link
+        display: inline-block
+        vertical-align: top
+        min-width: 4rem
+        position: relative
+    &__svg
+        @include mx-auto
+        width: 3.4rem
+        height: 3.4rem
+        &::before
+            content: ""
+            display: block
+            font-size: 0
+            line-height: 0
+            padding-top: 100%
+    &__text
+        font-size: 11px
+        color: $color-text
+        font-feature-settings: "clig" off, "liga" off
+        line-height: 1
+        text-align: center
+    &__data
+        position: absolute
+        top: -3px
+        right: -14px
+        //background: $color-yellow
+        //background:  #d9ac2a
+        background:  #f4ed71
+        @include counter
+
+.svg-image-bm-icon-1
+    background-position: 71.2% 57.2580645161%
+    background-size: 835.2941176471% auto
+
+.svg-image-bm-icon-2
+    background-position: 0 78.2258064516%
+    background-size: 835.2941176471% auto
+
+.svg-image-bm-icon-3
+    background-position: 13.6% 78.2258064516%
+    background-size: 835.2941176471% auto
+
+.svg-image-bm-icon-4
+    background-position: 27.2% 78.2258064516%
+    background-size: 835.2941176471% auto
+
+.svg-image-bm-icon-5
+    background-position: 40.8% 78.2258064516%
+    background-size: 835.2941176471% auto
+
