@@ -1,0 +1,19 @@
+.button__top
+    width: 56px
+    height: 56px
+    position: fixed
+    bottom: 8px
+    right: 8px
+    border-radius: 50%
+    border: 1px solid $color-red
+    rotate: -90deg
+    background-color: $color-body
+    z-index: 1
+    align-items: center
+    justify-content: center
+    display: flex
+    opacity: 0
+    transition: all 0.5s ease
+    &_active
+        opacity: 1
+        stroke: $color-red

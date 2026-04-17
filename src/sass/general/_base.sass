@@ -1,0 +1,44 @@
+*, ::after, ::before
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+
+a
+    color: inherit
+    text-decoration: inherit
+
+html
+    font-size: 62.5%
+
+body
+    min-width: 320px
+    font-size: 1.6rem
+    font-weight: 400
+    line-height: 1.5
+    text-align: left
+    background: #fdfdfd
+    font-family: $baseText
+
+.wrapper
+    margin: 0 auto
+    max-width: 144rem
+    width: 95%
+
+.row
+    display: flex
+    text-align: center
+    flex-wrap: wrap
+
+.row>*
+    box-sizing: border-box
+    flex-shrink: 0
+    width: 100%
+    max-width: 100%
+    padding-right: .8rem
+    padding-left: .8rem
+    position: relative
+
+.main
+    @include border-box
+    &__p
+        color: $color-text
